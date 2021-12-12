@@ -1,0 +1,21 @@
+#include <iostream>
+
+using namespace std;
+double sumItems(double item1, double item2){
+    double total = item1 + item2;
+    return total;
+}
+int main()
+{
+    
+    double MyMoney = 40.00;
+    double shoes = 25.99;
+    double tshirt = 11.50;
+    
+    if (sumItems(shoes, tshirt) <= MyMoney){
+        cout << " You Can Afford These Items " << endl;
+    
+    } else {
+        cout << " Keep Saving Up " << endl;
+    }
+}
